@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "",
   "type": "module",
-
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
@@ -11,5 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matti Luukkainen",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
 }
